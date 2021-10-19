@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: #b2c546; */
+    display: inline-flex;
+    flex-wrap: wrap;
+    /* align-items:baseline; */
+    height: 100vh;
+}
+
+nav{
+    width: 100vw;
+    height: 5vh;
+    background-color: #000;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu{
+    padding-right: 100px;
+    display: flex;
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: yellow;
+    font-size: 2em;
+    padding: 0 20px;
+}
+.menu a:hover{
+    transition: 0.35s;
+    color: #ffd104;
+}
+
+.home-block{
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/09/25/455966/2587c9e290e4776a126065c9eeb18090.jpg);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 85vh;
+}
+.content{
+    width: 50%;
+    height: 84%;
+    padding: 2% 5%;
+    background-color: rgba(200, 200, 200, 0.4);
+    border-radius: 3%;
+}
+
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #000;
+}
+
+/* lessons-block */
+
+.lessons-block{
+    background-image: url(https://www.usiouxfalls.edu/var/usf/storage/images/8/5/5/5/5558-4-eng-US/AA.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 85vh;
+}
+.lessons{
+    display: flex;
+    align-items: center;
+    width: 94%;
+    height: 86px;
+    padding: 7px 3%;
+    margin: 0% 0 5%;
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid black 2px;
+    box-shadow: 5px 5px 10px black;
+}
+.lessons:hover{
+    box-shadow: 8px 8px 3px black;
+    transition: 0.4s;
+
+}
+.lessons a{
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.lessons a:hover{
+    transition: 0.75s;
+    font-size: 1.52em;    
+    text-decoration: black underline;
+}
+
+/* lessons-block */
